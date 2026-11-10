@@ -7,3 +7,20 @@ auth-service/node_modules/
 mongo_data/
 mongodb/
 data/db/
+
+# Node.js
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Logs
+*.log
